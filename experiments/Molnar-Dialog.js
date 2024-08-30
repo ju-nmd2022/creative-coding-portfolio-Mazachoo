@@ -1,5 +1,15 @@
 function setup() {
   createCanvas(1000, 1000);
+
+  colors = [
+    color(255, 255, 255),
+    color(200, 5, 20),
+    color(55, 188, 25),
+    color(15, 35, 250),
+    color(125, 235, 250),
+    color(240, 245, 15),
+    color(160, 60, 235),
+  ];
 }
 
 const size = 160;
@@ -13,15 +23,7 @@ const layers = 13;
 //color (240, 245, 15), //yellow
 //color (160, 60, 235), //purplw
 
-const colors = [
-  color(255, 255, 255),
-  color(200, 5, 20),
-  color(55, 188, 25),
-  color(15, 35, 250),
-  color(125, 235, 250),
-  color(240, 245, 15),
-  color(160, 60, 235),
-];
+let colors = [];
 function getRandomValue(pos, variance) {
   return pos + map(Math.random(), 0, 0.3, -variance, variance);
 }
