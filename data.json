@@ -1,27 +1,52 @@
 [
   {
     "file": "experiments/Molnar-Dialog.js",
-    "name": "Molnar Dialog",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Recreation of Dialog Between Emotion and Method | Vera Molnár (1986)",
+    "description": "Generating a grid of layered, randomized shapes using different colors by repeatedly drawing slightly altered rectangles at varying positions and sizes."
   },
   {
     "file": "experiments/Molnar-Dialog-variation.js",
-    "name": "Molnar Variation",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Variation of Dialog Between Emotion and Method | Vera Molnár (1986)",
+    "description": "Continuously updating grid of randomly distorted, multi-layered shapes with pastel colors."
   },
   {
     "file": "experiments/Zdenek-Sykora-BlackWhite.js",
     "name": "Zdenek Sykora Black and White",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "Generating a static pattern of randomly colored triangles. Filling a grid, where each cell is split into two triangles with alternating black and white colors, determined by noise and random values."
   },
   {
     "file": "experiments/Zdenek-Sykora-variation.js",
     "name": "Zdenek Sykora Black and White - Variation",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "Static, grid-based pattern of multicolored triangles by selecting random colors from a predefined palette."
   },
   {
     "file": "experiments/Flow-animated-video.js",
     "name": "Flow",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "This code generates a complex, evolving visual artwork on a canvas that adapts its appearance through several stages, using noise and randomization to create colorful, flowing lines and a paper-like texture. To create this one I followed a tutorial by Steve's Makerspace."
+  },
+  {
+    "file": "experiments/Interactive-dsplay.js",
+    "name": "Interactive display experiment",
+    "description": "An interactive grid of circles on the canvas that dynamically change their size based on the distance from the mouse pointer."
+  },
+  {
+    "file": "experiments/moving-animation.js",
+    "name": "Experiment",
+    "description": "Animation of rectangles that rotate around the center of the canvas, with their size and corner roundness dynamically decreasing as the loop iterates."
+  },
+  {
+    "file": "experiments/moving-animation-color.js",
+    "name": "Experiment with color",
+    "description": "Animation of rectangles that rotate around the center of the canvas, with slightly changed values. Added color that change dynamically based on sine and cosine functions."
+  },
+  {
+    "file": "experiments/grid-animation.js",
+    "name": "Experiment in grid",
+    "description": "A variation of my experiment presented in a grid for a more dinamic effect."
+  },
+  {
+    "file": "experiments/grid.js",
+    "name": "Grid music experiment",
+    "description": "An interactive grid of squares that gradually fade in and out on a canvas, responding to mouse movements. The square under the cursor is illuminated and neighboring squares are randomly added, with their opacity decreasing over time to create a dynamic visual effect."
   }
 ]

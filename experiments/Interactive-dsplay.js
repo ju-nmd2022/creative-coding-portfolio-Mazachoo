@@ -4,7 +4,7 @@ let cols;
 let rows;
 
 function setup() {
-  createCanvas(1000, 800);
+  createCanvas(windowWidth, windowHeight);
 
   cols = width / size;
   rows = height / size;

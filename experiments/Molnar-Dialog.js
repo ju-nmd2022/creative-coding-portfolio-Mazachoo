@@ -73,5 +73,4 @@ function draw() {
     }
   }
   noLoop();
-  //save();
 }
