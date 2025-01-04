@@ -45,7 +45,7 @@
     "description": "A variation of my experiment presented in a grid for a more dinamic effect."
   },
   {
-    "file": "experiments/tonejs-interactive-canvas/index.html",
+    "file": "experiments/tonejs-interactive-canvas/tone.js",
     "name": "Interactive Music Canvas (Click to start the sound)",
     "description": "An interactive canvas project using Tone.js to create soundscapes. The canvas responds dynamically to mouse movements, activating squares and generating corresponding musical tones."
   }
