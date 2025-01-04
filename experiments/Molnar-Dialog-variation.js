@@ -10,8 +10,8 @@ const colors = [
 
 function setup() {
   createCanvas(1000, 1000);
-  frameRate(2);
-  noLoop();
+  frameRate(1);
+  //noLoop();
 }
 
 const size = 160;
