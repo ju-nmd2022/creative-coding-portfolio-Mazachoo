@@ -46,7 +46,7 @@
   },
   {
     "file": "experiments/tonejs-interactive-canvas/index.html",
-    "name": "Interactive Music Canvas",
+    "name": "Interactive Music Canvas (Click to start the sound)",
     "description": "An interactive canvas project using Tone.js to create soundscapes. The canvas responds dynamically to mouse movements, activating squares and generating corresponding musical tones."
   }
 ]
