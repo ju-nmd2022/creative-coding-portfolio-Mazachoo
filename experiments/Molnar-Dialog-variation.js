@@ -8,8 +8,13 @@ const colors = [
 ];
 
 function setup() {
-  createCanvas(1000, 1000);
-  frameRate(2);
+  // Create the canvas for the p5.js sketch
+  let canvas = createCanvas(1000, 1000);
+
+  // Attach the canvas to the 'p5container' div in your HTML
+  canvas.parent("p5container"); // This places the canvas inside the div
+
+  frameRate(2); // Set the frame rate (you can modify this as needed)
 }
 
 const size = 160;
