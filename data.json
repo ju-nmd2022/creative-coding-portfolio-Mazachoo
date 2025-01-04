@@ -30,11 +30,6 @@
     "description": "An interactive grid of circles on the canvas that dynamically change their size based on the distance from the mouse pointer."
   },
   {
-    "file": "experiments/Interactive-dsplay.js",
-    "name": "Interactive display",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  },
-  {
     "file": "experiments/moving-animation.js",
     "name": "Experiment",
     "description": "Animation of rectangles that rotate around the center of the canvas, with their size and corner roundness dynamically decreasing as the loop iterates."
@@ -50,8 +45,8 @@
     "description": "A variation of my experiment presented in a grid for a more dinamic effect."
   },
   {
-    "file": "experiments/grid.js",
-    "name": "Grid music experiment",
-    "description": "An interactive grid of squares that gradually fade in and out on a canvas, responding to mouse movements. The square under the cursor is illuminated and neighboring squares are randomly added, with their opacity decreasing over time to create a dynamic visual effect."
+    "file": "projects/tonejs-interactive-canvas/index.html",
+    "name": "Interactive Music Canvas",
+    "description": "An interactive canvas project using Tone.js to create soundscapes. The canvas responds dynamically to mouse movements, activating squares and generating corresponding musical tones."
   }
 ]
