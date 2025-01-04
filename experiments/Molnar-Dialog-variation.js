@@ -1,20 +1,17 @@
+// Ensure that the colors are defined using p5.js color function ChatGPT
 const colors = [
-  color(255, 214, 255),
-  color(231, 198, 255),
-  color(200, 182, 255),
-  color(184, 192, 255),
-  color(187, 208, 255),
-  color(247, 37, 133),
+  [255, 214, 255],
+  [231, 198, 255],
+  [200, 182, 255],
+  [184, 192, 255],
+  [187, 208, 255],
+  [247, 37, 133],
 ];
 
 function setup() {
-  // Create the canvas for the p5.js sketch
-  let canvas = createCanvas(1000, 1000);
-
-  // Attach the canvas to the 'p5container' div in your HTML
-  canvas.parent("p5container"); // This places the canvas inside the div
-
-  frameRate(2); // Set the frame rate (you can modify this as needed)
+  createCanvas(1000, 1000);
+  frameRate(2);
+  noLoop();
 }
 
 const size = 160;
@@ -29,7 +26,8 @@ function drawLayers(x, y, size, layers) {
   noFill();
   strokeWeight(1);
 
-  stroke(random(colors));
+  // Make sure to use p5.js color() function with color values directly ChatGPT
+  stroke(color(random(colors)));
 
   for (let i = 0; i < layers; i++) {
     if (Math.random() > 0.98) {
