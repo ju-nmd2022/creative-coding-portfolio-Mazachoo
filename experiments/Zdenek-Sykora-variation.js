@@ -32,7 +32,7 @@ function draw() {
     for (let j = 0; j < height; j += size) {
       let color1 = random(selectedColors);
       let color2 = random(selectedColors);
-
+      // ChatGPT helped refine this logic to introduce randomness with Perlin noise
       if (noise(i * rez, j * rez) < 0.5) {
         fill(color1[0], color1[1], color1[2]);
         triangle(i, j, i + size, j + size, i, j + size);

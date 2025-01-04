@@ -26,3 +26,8 @@ function draw() {
     pop();
   }
 }
+/*
+“Simple Sine Wave Animation in P5.Js | 
+Coding Project #11.” Www.youtube.com, 
+www.youtube.com/watch?v=ktPnruyC6cc.
+*/

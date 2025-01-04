@@ -1,4 +1,4 @@
-// Ensure that the colors are defined using p5.js color function ChatGPT
+// Ensure that the colors are defined using p5.js color function - ChatGPT
 const colors = [
   [255, 214, 255],
   [231, 198, 255],
@@ -26,7 +26,7 @@ function drawLayers(x, y, size, layers) {
   noFill();
   strokeWeight(1);
 
-  // Make sure to use p5.js color() function with color values directly ChatGPT
+  // Make sure to use p5.js color() function with color values directly - ChatGPT
   stroke(color(random(colors)));
 
   for (let i = 0; i < layers; i++) {

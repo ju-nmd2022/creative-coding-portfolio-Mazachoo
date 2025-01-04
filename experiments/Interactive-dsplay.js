@@ -57,3 +57,8 @@ function createCircle(x, y, dw, dh) {
 function displayCircle(circle) {
   ellipse(circle.x, circle.y, circle.dw, circle.dh);
 }
+
+/*Inspiration: Patt Vira. “P5.Js Coding Tutorial | 
+Interactive Display of Ellipses.” YouTube, 18 Dec. 2023, 
+www.youtube.com/watch?v=O87-YrgoAlw. Accessed 31 Dec. 2024.
+*/

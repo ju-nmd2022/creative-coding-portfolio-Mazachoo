@@ -132,3 +132,12 @@ function paperTexture(textureType) {
   }
   colorMode(HSB, 360, 120, 100, 255);
 }
+
+/*
+Inspiration - YouTube video
+Steve's Makerspace. 
+“Making a Static Flow Field in P5.Js.” 
+YouTube, 19 Mar. 2023, 
+www.youtube.com/watch?v=R0OFyWEglGA. 
+Accessed 31 Dec. 2024.
+*/
